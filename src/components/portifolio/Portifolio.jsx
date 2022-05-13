@@ -28,8 +28,9 @@ const Portifolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>Subnautica Website</h3>
+          <span>Website based in one of my favorite game called 'Subnautica'</span>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" class="btn"target='_blank'>Github</a>
+            {/* <a href="https://github.com/JGabriel-SL" class="btn"target='_blank'>Github</a> */}
             {/* <a href="https://github.com" class="btn btn-primary">Github</a> */}
           </div>
         </article>
@@ -38,8 +39,9 @@ const Portifolio = () => {
             <img src={IMG2} alt="" />
           </div>
           <h3>LittleVerse</h3>
+          <span>For show about the constellations and signs, I made a website layout.</span>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" class="btn"target='_blank'>Github</a>
+            {/* <a href="https://github.com" class="btn"target='_blank'>Github</a> */}
             {/* <a href="https://github.com" class="btn btn-primary">Github</a> */}
           </div>
         </article>
@@ -48,8 +50,9 @@ const Portifolio = () => {
             <img src={IMG3} alt="" />
           </div>
           <h3>ReservaTech</h3>
+          <span>A web layout for an app that can reserve technological equipment</span>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" class="btn"target='_blank'>Github</a>
+            {/* <a href="https://github.com" class="btn"target='_blank'>Github</a> */}
             {/* <a href="https://github.com" class="btn btn-primary">Github</a> */}
           </div>
         </article>
@@ -58,8 +61,9 @@ const Portifolio = () => {
             <img src={IMG4} alt="" />
           </div>
           <h3>TODO</h3>
+          <span>A simple TODO layout app with a light theme and dark mode theme</span>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" class="btn"target='_blank'>Github</a>
+            {/* <a href="https://github.com" class="btn"target='_blank'>Github</a> */}
             {/* <a href="https://github.com" class="btn btn-primary">Github</a> */}
           </div>
         </article>
