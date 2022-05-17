@@ -66,6 +66,21 @@ header {
     font-size: 0.9rem;
 }
 
+/* TRANSLATE BUTTONS */
+
+.container__translate {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+
+    display: flex;
+}
+
+.container__translate-btn {
+    background: transparent;
+    margin: 0px 0.5rem;
+}
+
 /* MEDIUM */
 
 @media screen and (max-width: 1024px) {

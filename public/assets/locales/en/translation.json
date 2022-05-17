@@ -1,0 +1,65 @@
+{
+    "header": {
+        "hello": "Hello I'm",
+        "name": "João Gabriel",
+        "career": "Web Developer",
+        "scroll": "Scroll Down"
+    },
+    "about_me": {
+        "title":"Get To know",
+        "subtitle": "About Me",
+        "experience": "Experience",
+        "exp_time": "{time} working",
+        "projects": "Projects",
+        "projects_qtd": "Some Completed",
+        "text": "I'm an eternal student, and that's why during my life I want to develop myself to the fullest. I wish to share knowledge during this great journey."  
+    },
+    "experience": {
+        "title":"What Skills I Have",
+        "subtitle": "My Experience",
+        "frontend": "Frontend Development",
+        "backend": "Backend Development",
+        "text" : "Experienced"
+    },
+    "portfolio": {
+        "title": "My Recent Work",
+        "subtitle": "Portfolio",
+        "project_1": {
+            "text": "Website based in one of my favorite game called 'Subnautica'"
+        },
+        "project_2": {
+            "text": "For show about the constellations and signs, I made a website layout."
+        },
+        "project_3": {
+            "text": "A web layout for an app that can reserve technological equipment"
+        },
+        "project_4": {
+            "text": "A simple TODO layout app with a light theme and dark mode theme"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle":"Contact Me",
+        "send_message": "Send a message",
+        "inputs": {
+            "name":"Your full name",
+            "email":"Your email",
+            "message":"Your message"
+        }
+    },
+    "footer": {
+        "title": "J.GABRIEL",
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "experience": "Experience",
+            "portfolio":"Portfolio",
+            "contact": "Contact"
+        }
+    },
+    "buttons": {
+        "lets_talk": "Let's talk",
+        "download": "Download CV",
+        "send_message": "Send message"
+    }
+}

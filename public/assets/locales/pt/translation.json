@@ -1,0 +1,65 @@
+{
+    "header": {
+        "hello": "Olá, eu sou",
+        "name": "João Gabriel",
+        "career": "Web Developer",
+        "scroll": "Deslize para baixo"
+    },
+    "about_me": {
+        "title":"Conheça",
+        "subtitle": "Sobre Mim",
+        "experience": "Experiência",
+        "exp_time": "{{time}} Anos trabalhando",
+        "projects": "Projetos",
+        "projects_qtd": "Alguns Completos",
+        "text": "Sou um eterno estudante, e é por isso que durante a minha vida quero me desenvolver ao máximo. Eu desejo compartilhar conhecimento durante esta grande jornada."    
+    },
+    "experience": {
+        "title":"What Skills I Have",
+        "subtitle": "Minha Experiência",
+        "frontend": "Desenvolvimento Frontend",
+        "backend": "Desenvolvimento Backend",
+        "text" : "Experienced"
+    },
+    "portfolio": {
+        "title": "My Recent Work",
+        "subtitle": "Portfolio",
+        "project_1": {
+            "text": "Website based in one of my favorite game called 'Subnautica'"
+        },
+        "project_2": {
+            "text": "For show about the constellations and signs, I made a website layout."
+        },
+        "project_3": {
+            "text": "A web layout for an app that can reserve technological equipment"
+        },
+        "project_4": {
+            "text": "A simple TODO layout app with a light theme and dark mode theme"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle":"Contact Me",
+        "send_message": "Send a message",
+        "inputs": {
+            "name":"Your full name",
+            "email":"Your email",
+            "message":"Your message"
+        }
+    },
+    "footer": {
+        "title": "J.GABRIEL",
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "experience": "Experience",
+            "portfolio":"Portfolio",
+            "contact": "Contact"
+        }
+    },
+    "buttons": {
+        "lets_talk": "Vamos conversar",
+        "download": "Baixar CV",
+        "send_message": "Enviar mensagem"
+    }
+}

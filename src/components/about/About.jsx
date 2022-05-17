@@ -4,14 +4,19 @@ import './about.css'
 import ME from '../../assets/me-about.jpg'
 
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+// import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
+import { useTranslation } from 'react-i18next';
+
 const About = () => {
-     return (
+    const { t } = useTranslation();
+    
+    const time = '1+/-'
+    return (
          <section id='about'>
-             <h5>Get To Know</h5>
-             <h2>About Me</h2>
+             <h5>{t('about_me.title')}</h5>
+             <h2>{t('about_me.subtitle')}</h2>
 
             <div className='container about__container'>
                 <div className='about__me'>
@@ -24,8 +29,8 @@ const About = () => {
                     <div className="about__cards">
                         <article className='about__card'>
                             <FaAward className='about__icon '/>
-                            <h5>Experience</h5>
-                            <small>1+/- Year working</small>
+                            <h5>{t('about_me.experience')}</h5>
+                            <small>{t('about_me.exp_time', {time})}</small>
                         </article>
                         {/* <article className='about__card'>
                             <FiUsers className='about__icon '/>
@@ -34,14 +39,14 @@ const About = () => {
                         </article> */}
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon '/>
-                            <h5>Projects</h5>
-                            <small>Some Completed</small>
+                            <h5>{t('about_me.projects')}</h5>
+                            <small>{t('about_me.projects_qtd')}</small>
                         </article>
                     </div>
                     <p>
-                    I'm an eternal student, and that's why during my life I want to develop myself to the fullest. I wish to share knowledge during this great journey.
+                    {t('about_me.text')}
                     </p>
-                   <a href="#contact" className='btn btn-primary'>Let's talk</a> 
+                   <a href="#contact" className='btn btn-primary'>{t('buttons.lets_talk')}</a> 
                 </div>
             </div>
 
