@@ -70,7 +70,7 @@ header {
 
 .container__translate {
     position: absolute;
-    right: 1.5rem;
+    right: 0;
     top: 0.5rem;
 
     display: flex;
@@ -100,4 +100,14 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
+
+    
+    .container__translate {
+        position: absolute;
+        right: -20px;
+        top: -50px;
+
+        display: flex;
+    }
+
 }
