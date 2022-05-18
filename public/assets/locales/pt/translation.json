@@ -1,0 +1,65 @@
+{
+    "header": {
+        "hello": "Olá, eu sou",
+        "name": "João Gabriel",
+        "career": "Web Developer",
+        "scroll": "Deslize para baixo"
+    },
+    "about_me": {
+        "title":"Conheça",
+        "subtitle": "Sobre Mim",
+        "experience": "Experiência",
+        "exp_time": "1 ano trabalhando",
+        "projects": "Projetos",
+        "projects_qtd": "Alguns Completos",
+        "text": "Sou um eterno estudante, e é por isso que durante a minha vida quero me desenvolver ao máximo. Eu desejo compartilhar conhecimento durante esta grande jornada."    
+    },
+    "experience": {
+        "title":"Que habilidades eu tenho",
+        "subtitle": "Minha Experiência",
+        "frontend": "Desenvolvimento Frontend",
+        "backend": "Desenvolvimento Backend",
+        "text" : "Experiente"
+    },
+    "portfolio": {
+        "title": "Meu recente trabalho",
+        "subtitle": "Portfolio",
+        "project_1": {
+            "text": "Site baseado em um dos meus jogos favoritos chamado 'Subnautica'"
+        },
+        "project_2": {
+            "text": "Para mostrar sobre as constelações e placas, fiz um layout de site."
+        },
+        "project_3": {
+            "text": "Um layout web para um aplicativo que pode reservar equipamentos tecnológicos"
+        },
+        "project_4": {
+            "text": "Um simples layout de aplicativo TODO com um tema claro e tema modo escuro"
+        }
+    },
+    "contact": {
+        "title": "Entre em Contato",
+        "subtitle":"Me contate",
+        "send_message": "Mande uma mensagem",
+        "inputs": {
+            "name":"Seu nome completo",
+            "email":"Seu email",
+            "message":"Sua mensagem"
+        }
+    },
+    "footer": {
+        "title": "J.GABRIEL",
+        "nav": {
+            "home": "Início",
+            "about": "Sobre",
+            "experience": "Experîência",
+            "portfolio":"Portfolio",
+            "contact": "Contato"
+        }
+    },
+    "buttons": {
+        "lets_talk": "Vamos conversar",
+        "download": "Baixar CV",
+        "send_message": "Enviar mensagem"
+    }
+}
